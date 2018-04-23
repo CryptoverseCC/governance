@@ -3,8 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 const VOTE = 35;
-const API = `https://www.etherchain.org/coinvote/poll/${VOTE}/data/json`
-const ENHANCED_API = `http://localhost:8000`
+const API = `https://cors-anywhere.herokuapp.com/https://www.etherchain.org/coinvote/poll/${VOTE}/data/json`;
+const ENHANCED_API = `http://localhost:8000`;
 
 
 const Votes = function Votes (params) {
